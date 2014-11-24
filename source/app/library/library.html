@@ -1,0 +1,1065 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>Library - Dynamic table</title>
+<!-- start: META -->
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta content="" name="description" />
+		<meta content="" name="author" />
+		<!-- end: META -->
+
+
+ <!-- start: MAIN CSS -->
+		<link rel="stylesheet" href="../../assets/js/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../assets/js/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../assets/css/main.css">
+		<link rel="stylesheet" href="../../assets/css/main-responsive.css">
+		<!--[if IE 7]>
+		<link rel="stylesheet" href="../../assets/js/vendor/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+		<!-- end: MAIN CSS -->
+		<!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+		<link rel="stylesheet" type="text/css" href="../../assets/js/vendor/select2/select2.css" />
+		<link rel="stylesheet" type="text/css" href="../../assets/js/vendor/iCheck/skins/all.css" />
+		<link rel="stylesheet" href="../../assets/js/vendor/DataTables/media/css/DT_bootstrap.css" />
+		<link rel="stylesheet" href="../../assets/js/vendor/bootstrap-switch/static/stylesheets/bootstrap-switch.css">       
+        <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" /><!-- All css -->       
+
+		<!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+
+</head>
+<body>
+<div class="container">
+					<!-- start: PAGE HEADER -->
+
+					<!-- end: PAGE HEADER -->
+					<!-- start: PAGE CONTENT -->
+
+    <!-- start: User Table -->
+
+    <div class="row">
+        <div class="col-md-offset-7 col-md-4">
+            <div class="col-md-12">
+                <div class="panel panel-default" style="margin-bottom: 10px; margin-top: 10px; background-color:#EFEFEF">
+                    <div class="panel-body" style="padding: 7px;">
+                        <div class="form-group" style="margin-bottom: 0px; text-align:center ">
+                            <label class="col-sm-7" style="margin-top:5px">
+                                Select your Library by Language
+                            </label>
+                            <div class="col-sm-4">
+                                <span>
+                                    <select class="form-control">
+                                        <option value="1">English</option>
+                                        <option value="2">Franch</option>
+                                        <option value="3">Spanish</option>
+                                    </select>
+                                </span>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- end: User Table -->
+    <div class="row">
+        <div class="col-md-offset-1 col-md-10 col-md-offset-1">
+            <div class="heading-bar">
+                <h2>Recently Read</h2>
+                <span class="h-line"></span>
+            </div>
+            <!-- start: DYNAMIC TABLE PANEL -->
+            <div class="panel panel-default">                
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Start BX Slider holder -->
+                            <section class="row features-books">
+                                <section class="col-md-12 m-bottom">                                    
+                                    <div class="slider1">
+                                        <div class="slide">
+                                           <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>                                                                      
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                        <div class="slide">
+                                            <div><a href="#"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" class="pro-img" /></a> </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <!-- End BX Slider holder -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- end: DYNAMIC TABLE PANEL -->
+        </div>
+    </div>
+    <!-- end: User Table -->
+    <div class="row">
+        <div class="col-md-offset-1 col-md-10 col-md-offset-1">
+
+            <!-- start: INLINE TABS PANEL -->
+            <div class="row">
+                <div class="col-sm-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel panel-default" style="margin-bottom: 10px; background-color:#EFEFEF">
+                                <div class="panel-body" style="padding: 5px;">
+                                    <form role="form" class="form-horizontal">
+
+                                        <div class="form-group" style="margin-bottom: 0px">
+                                            <label class="col-sm-2 control-label">
+                                                Search books by
+                                            </label>
+                                            <div class="col-sm-2">
+                                                <span class="input-icon input-icon-right">
+                                                    <select class="form-control">
+                                                        <option value="1">Category</option>
+                                                        <option value="2">Category</option>
+                                                        <option value="3">Category</option>
+                                                    </select>
+
+                                                </span>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <span class="input-icon input-icon-right">
+                                                    <input type="text" placeholder="Text Field" id="form-field-18" class="form-control">
+                                                    <i class="fa fa-search"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label class="control-label col-md-3" style="text-align:right">
+                                                    show
+                                                </label>
+                                                <span class="col-md-5">
+                                                    <select class="form-control">
+                                                        <option value="1">69</option>
+                                                        <option value="2">100</option>
+                                                        <option value="3">200</option>
+                                                    </select>
+                                                </span>
+                                                <label class="control-label col-md-3" style="text-align:left">
+                                                    /page
+                                                </label>
+                                            </div>
+
+
+
+                                        </div>
+
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabbable">
+                        <ul id="myTab" class="nav nav-tabs tab-bricky">
+                            <li class="active">
+                                <a href="#panel_tab1" data-toggle="tab">
+                                    <i class="green fa fa-book"></i> Owned <span class="badge badge-success">580</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#panel_tab2" data-toggle="tab">
+                                    <i class="green fa fa-tags"></i> Bookstore <span class="badge badge-success">256</span>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="panel_tab3" data-toggle="tab">
+                                    <i class="green fa  fa-bookmark-o"></i> Free <span class="badge badge-success">64</span>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="panel_tab4" data-toggle="tab">
+                                    <i class="green fa fa-briefcase"></i> Courses <span class="badge badge-success">64</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane in active" id="panel_tab1">
+                                
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide-book">
+                                            <div>
+                                                <div>
+                                                    <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                                    <div style="float:left">
+                                                        <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                        <span class="title2"><a href="#">Author Name</a></span>
+                                                        <span class="title2"><a href="#">Category Name</a></span>
+                                                    </div>
+                                                    <div style="float:Right;">
+                                                        <div style=" text-align: center; width: 60px">
+                                                            <a class="download-btn3" href="#">Download</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="text-align:center">
+                                        <div>
+                                            <ul class="pagination pagination-sm">
+                                                <li>
+                                                    <a href="#">
+                                                        Prev
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        3
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        4
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Next
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="panel_tab2">
+                                
+                                <div class="slide-book">
+                                    <div>
+                                        <div>
+                                            <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                            <div style="float:left">
+                                                <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                <span class="title2"><a href="#">Author Name</a></span>
+                                                <span class="title2"><a href="#">Category Name</a></span>
+                                            </div>
+                                            <div style="float:Right;">
+                                                <div style=" text-align: center; width: 60px">
+                                                    <a class="cart-btn3" href="#">Add to Cart</a>
+                                                    <div class="cart-price">
+                                                        <span class="price1">$129.90</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="text-align:center">
+                                        <div>
+                                            <ul class="pagination pagination-sm">
+                                                <li>
+                                                    <a href="#">
+                                                        Prev
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        3
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        4
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Next
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="panel_tab3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" style="margin-bottom: 10px; background-color:#EFEFEF">
+                                            <div class="panel-body" style="padding: 5px;">
+                                                <form role="form" class="form-horizontal">
+
+                                                    <div class="form-group" style="margin-bottom: 0px">
+                                                        <label class="col-sm-2 control-label">
+                                                            Search books by
+                                                        </label>
+                                                        <div class="col-sm-2">
+                                                            <span class="input-icon input-icon-right">
+                                                                <select class="form-control">
+                                                                    <option value="1">Category</option>
+                                                                    <option value="2">Category</option>
+                                                                    <option value="3">Category</option>
+                                                                </select>
+
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <span class="input-icon input-icon-right">
+                                                                <input type="text" placeholder="Text Field" id="form-field-18" class="form-control">
+                                                                <i class="fa fa-search"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <label class="control-label col-md-3" style="text-align:right">
+                                                                show
+                                                            </label>
+                                                            <span class="col-md-5">
+                                                                <select class="form-control">
+                                                                    <option value="1">69</option>
+                                                                    <option value="2">100</option>
+                                                                    <option value="3">200</option>
+                                                                </select>
+                                                            </span>
+                                                            <label class="control-label col-md-3" style="text-align:left">
+                                                                /page
+                                                            </label>
+                                                        </div>
+
+
+
+                                                    </div>
+
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-book">
+                                    <div>
+                                        <div>
+                                            <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                            <div style="float:left">
+                                                <div><span class="title"><a href="#">Title of the Book</a></span></div>
+                                                <span class="title2"><a href="#">Author Name</a></span>
+                                                <span class="title2"><a href="#">Category Name</a></span>
+                                            </div>
+                                            <div style="float:Right;">
+                                                <div style=" text-align: center; width: 60px">
+                                                    <a class="download-btn3" href="#">Add to Cart</a>
+                                                    <div class="cart-price">
+                                                        <span class="price1">$129.90</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="text-align:center">
+                                        <div>
+                                            <ul class="pagination pagination-sm">
+                                                <li>
+                                                    <a href="#">
+                                                        Prev
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        3
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        4
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Next
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="panel_tab4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default" style="margin-bottom: 10px; background-color:#EFEFEF">
+                                            <div class="panel-body" style="padding: 5px;">
+                                                <form role="form" class="form-horizontal">
+
+                                                    <div class="form-group" style="margin-bottom: 0px">
+                                                        <label class="col-sm-2 control-label">
+                                                            Search books by
+                                                        </label>
+                                                        <div class="col-sm-2">
+                                                            <span class="input-icon input-icon-right">
+                                                                <select class="form-control">
+                                                                    <option value="1">Category</option>
+                                                                    <option value="2">Category</option>
+                                                                    <option value="3">Category</option>
+                                                                </select>
+
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-sm-5">
+                                                            <span class="input-icon input-icon-right">
+                                                                <input type="text" placeholder="Text Field" id="form-field-18" class="form-control">
+                                                                <i class="fa fa-search"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="col-md-3">
+                                                            <label class="control-label col-md-3" style="text-align:right">
+                                                                show
+                                                            </label>
+                                                            <span class="col-md-5">
+                                                                <select class="form-control">
+                                                                    <option value="1">69</option>
+                                                                    <option value="2">100</option>
+                                                                    <option value="3">200</option>
+                                                                </select>
+                                                            </span>
+                                                            <label class="control-label col-md-3" style="text-align:left">
+                                                                /page
+                                                            </label>
+                                                        </div>
+
+
+
+                                                    </div>
+
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-book">
+                                    <div>
+                                        <div>
+                                            <div style="float:left"><img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" style="margin-right:5px; width:50px; height:50px" /></div>
+                                            <div style="float:left">
+                                                <div><span class="title"><a href="#">Title of the Bookerwerwererw</a></span></div>
+                                                <span class="title2"><a href="#">Author Name</a></span>
+                                                <span class="title2"><a href="#">Category Name</a></span>
+                                            </div>
+                                            <div style="float:Right;">
+                                                <div style=" text-align: center; width: 60px">
+                                                    <a class="download-btn3" href="#">Add to Cart</a>
+                                                    <div class="cart-price">
+                                                        <span class="price1">$129.90</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12" style="text-align:center">
+                                        <div>
+                                            <ul class="pagination pagination-sm">
+                                                <li>
+                                                    <a href="#">
+                                                        Prev
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        3
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        4
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Next
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-success col-md-12">
+                                <i class="fa fa-plus"></i>
+                                | Add Book
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" style="margin-top:20px">
+                            <!-- start: UNORDERED LISTS PANEL -->
+                            <div class="panel panel-default">  
+                                <div class="panel-body">
+                                    <div class="heading-bar">
+                                        <h2>Category</h2>
+                                        <span class="h-line"></span>
+                                    </div>
+                                    <div class="panel-group accordion-custom accordion-teal" id="accordion">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                        <i class="icon-arrow"></i>
+                                                       Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in">
+                                                <div class="panel-body">
+                                                    <ul style="-webkit-padding-start: 10px;">
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <ul style="-webkit-padding-start: 10px;">
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                        <li><a href="#">Sub-Category</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>                                            
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Category Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                        <div style="text-align:center"><a href="#">Load More..</a></div>
+                                       
+                                   
+                                </div>                              
+                                
+                            </div>
+                            <!-- end: UNORDERED LISTS PANEL -->                           
+                           
+                           
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- start: UNORDERED LISTS PANEL -->
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="heading-bar">
+                                        <h2>Author List</h2>
+                                        <span class="h-line"></span>
+                                    </div>
+                                    <div class="panel-group accordion-custom accordion-teal" id="accordion">
+                                        
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Author Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Author Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Author Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Author Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Author Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle collapsed" href="#">
+                                                        <i class="icon-arrow"></i>
+                                                        Author Name
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="text-align:center"><a href="#">Load More..</a></div>
+
+
+                                </div>
+
+                            </div>
+                            <!-- end: UNORDERED LISTS PANEL -->
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- start: UNORDERED LISTS PANEL -->
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div class="heading-bar">
+                                        <h2>Tags</h2>
+                                        <span class="h-line"></span>
+                                    </div>
+                                    <div>
+                                        <a class="btn btn-xs btn-default tags" href="#">tag name </a> <a class="btn btn-xs btn-success tags" href="#">tag name anything </a> <a class="btn btn-xs btn-warning tags" href="#">tag name item </a> <a class="btn btn-xs btn-danger tags" href="#">tag name </a> <a class="btn btn-xs btn-info tags" href="#">tag name </a>
+                                        <a class="btn btn-xs btn-default tags" href="#">tag name </a> <a class="btn btn-xs btn-success tags" href="#">tag name anything </a> <a class="btn btn-xs btn-warning tags" href="#">tag name item </a> <a class="btn btn-xs btn-danger tags" href="#">tag name </a> <a class="btn btn-xs btn-info tags" href="#">tag name </a>                                           
+                                        <a class="btn btn-xs btn-default tags" href="#">tag name </a> <a class="btn btn-xs btn-success tags" href="#">tag name anything </a> <a class="btn btn-xs btn-warning tags" href="#">tag name item </a> <a class="btn btn-xs btn-danger tags" href="#">tag name </a> <a class="btn btn-xs btn-info tags" href="#">tag name </a>                                                                                      
+                                            
+                                        
+                                    </div>
+                                    
+
+                                   
+
+
+                                </div>
+
+                            </div>
+                            <!-- end: UNORDERED LISTS PANEL -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end: INLINE TABS PANEL -->
+        </div>
+    </div>
+
+					<!-- end: PAGE CONTENT-->
+</div>
+	<!-- end: MAIN CONTAINER -->
+	<!-- start: MAIN JAVASCRIPTS -->
+		<!--[if lt IE 9]>
+		<script src="../../assets/js/vendor/respond.min.js"></script>
+		<script src="../../assets/js/vendor/excanvas.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="../../assets/js/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../assets/js/vendor/perfect-scrollbar/src/perfect-scrollbar.js"></script>
+        <script src="../../assets/js/vendor/jquery-cookie/jquery.cookie.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-colorpalette/js/bootstrap-colorpalette.js"></script>
+        <script src="../../assets/js/main.js"></script>
+        <script src="../../assets/js/vendor/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js"></script>
+        <script src="../../assets/js/vendor/autosize/jquery.autosize.min.js"></script>
+        <script src="../../assets/js/vendor/select2/select2.min.js"></script>
+        <script src="../../assets/js/form-elements.js"></script>
+        <script src="../../assets/js/table-data.js"></script>
+
+		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+
+		<script src="../../assets/js/vendor/DataTables/media/js/jquery.dataTables.min.js"></script>
+		<script src="../../assets/js/vendor/DataTables/media/js/DT_bootstrap.js"></script>
+		<script src="../../assets/js/vendor/iCheck/jquery.icheck.min.js"></script>
+		<script src="../../assets/js/vendor/bootstrap-switch/static/js/bootstrap-switch.min.js"></script>
+        <script src="../../assets/js/vendor/ckeditor/ckeditor.js"></script>
+       
+
+        <script type="text/javascript" src="../../assets/js/lib.js"></script><!-- lib Js -->
+        <script type="text/javascript" src="../../assets/js/modernizr.js"></script><!-- Modernizr -->
+        <script type="text/javascript" src="../../assets/js/easing.js"></script><!-- Easing js -->
+       
+        <script type="text/javascript" src="../../assets/js/bxslider.js"></script><!-- BX Slider -->
+        <script type="text/javascript" src="../../assets/js/custom.js"></script><!-- Custom js -->   
+   
+
+
+
+
+
+		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		<script>
+			jQuery(document).ready(function() {
+			    Main.init();
+				TableData.init();
+				FormElements.init();
+
+			});
+		</script>
+    
+
+</body>
+</html>

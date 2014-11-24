@@ -1,0 +1,30 @@
+{ 
+  "_id": "StudyGroup",
+   "type": "2",
+   "entity": [
+       {
+           "type": "2",
+           "id": "TRG",
+           "name": "Trigers",
+           "category": "STGroup"
+       },
+       {
+          "type": "2",
+           "id": "BLM",
+           "name": "BlindMice",
+           "category": "STGroup"
+       },
+       {
+          "type": "2",
+           "id": "APR",
+           "name": "Appress",
+           "category": "STGroup"
+       },
+       {
+            "type": "2",
+           "id": "WRX",
+           "name": "Wrox",
+           "category": "STGroup"
+       }
+   ]
+}

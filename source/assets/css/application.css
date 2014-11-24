@@ -1,0 +1,19 @@
+body {
+    padding-top: 60px; /* 60px to make the container make room for the navigation bar */
+}
+.navbar-nav > li {
+    padding-left:20px;
+}
+.error-color{
+    color:#a94442;
+}
+
+.error-border-color{
+    border-color:#a94442;
+}
+
+.error-uload-text{
+	border-color: #ebccd1;
+    color: #a94442;
+}
+

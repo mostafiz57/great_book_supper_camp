@@ -1,0 +1,40 @@
+{
+  "name": "couch-app",
+  "version": "0.1.0",
+  "description": "ilm file upload project",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.4.3",
+    "cradle": "^0.6.7",
+    "crypto": "0.0.3",
+    "express": "~4.4.5",
+    "felix-couchdb": "~1.0.7",
+    "nodemailer": "~0.7.0",
+    "optimist": "^0.6.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-couchapp": "~0.2.1",
+    "hbs": "~2.7.0",
+    "nib": "~1.0.3",
+    "stylus": "~0.47.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadananda/ilm.git"
+  },
+  "scripts": {
+    "test": "watch"
+  },
+  "keywords": [
+    "couchapp"
+  ],
+  "author": "Mostafizur Rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chadananda/ilm/issues"
+  }
+}

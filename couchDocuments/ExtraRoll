@@ -1,0 +1,30 @@
+{ 
+  "_id": "ExtraRoll",
+   "type": "2",
+   "entity": [
+       {
+           "type": "2",
+           "id": "ADM",
+           "name": "Admin",
+           "category": "URoll"
+       },
+       {
+          "type": "2",
+           "id": "EDT",
+           "name": "Editor",
+           "category": "URoll"
+       },
+       {
+          "type": "2",
+           "id": "PLS",
+           "name": "Publisher",
+           "category": "URoll"
+       },
+       {
+            "type": "2",
+           "id": "VWR",
+           "name": "Viewer",
+           "category": "URoll"
+       }
+   ]
+}

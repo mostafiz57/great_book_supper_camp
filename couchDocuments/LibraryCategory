@@ -1,0 +1,52 @@
+{ 
+  "_id": "LibraryCategory",
+   "type": "3",
+   "category": [
+       {
+           "type": "3",
+           "id": "c1",
+           "name": "Albama"
+       },
+       {
+           "type": "3",
+           "id": "c2",
+           "name": "Alaska"
+       },
+       {
+           "type": "3",
+           "id": "c3",
+           "name": "Arizona"
+       },
+       {
+           "type": "3",
+           "id": "c4",
+           "name": "Florida"
+       }
+   ],
+   "subCategory": [
+       {
+           "type": "3",
+           "id": "s1",
+           "cat_id": "c1",
+           "name": "Albama"
+       },
+       {
+           "type": "3",
+           "id": "s2",
+           "cat_id": "c1",
+           "name": "Alaska"
+       },
+       {
+           "type": "3",
+           "id": "s3",
+           "cat_id": "c2",
+           "name": "Arizona"
+       },
+       {
+           "type": "3",
+           "id": "s4",
+           "cat_id": "c2",
+           "name": "Florida"
+       }
+   ]
+}

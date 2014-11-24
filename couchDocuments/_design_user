@@ -1,0 +1,32 @@
+{
+   "_id": "_design/user",
+   "views": {
+       "allUser": {
+           "map": "function(doc){key=doc.type,emit(key,doc)}"
+       },
+
+       "userRollSTGroup" :{
+            "map": "function(doc){key=doc.type,value=doc.entity,emit(key,value)}"
+       },
+
+       "userById" :{
+            "map": "function(doc){key=doc.id,value=doc,emit(key,value)}"
+       },
+
+       "userMaxId" : {
+           "map": "function(doc){key=doc.type,value=doc.id,emit(key,value)}"
+         },
+
+         "userByMail" : {
+           "map": "function(doc){key=doc.email,value=doc.password,emit(key,value)}"
+         } ,
+         "encriptPwdByMail" : {
+           "map": "function(doc){key=doc.email,value=doc.pwdCip,emit(key,value)}"
+         } ,
+         "libraryCategory" : {
+           "map": "function(doc){key=doc.type,value=doc,emit(key,value)}"
+         } 
+
+   }
+}
+

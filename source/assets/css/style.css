@@ -1,0 +1,139 @@
+
+/* Import Css Files */
+@import url('bxslider.css');
+
+/* Import Css Files */
+
+
+/* Start Featured Books Css */
+.heading-bar { border-bottom:1px solid #d9d9d9; padding:6px 0; margin:0 0 22px; position:relative; }
+.heading-bar h2 { margin:0; font-size:24px; color:#333; line-height:24px; }
+.heading-bar a{ font-size:18px;}
+.h-line { background:#1abc9c; width:30px; height:3px; position:absolute; left:0; bottom:-2px; }
+.features-books .bx-pager { display:none; }
+.features-books .bx-wrapper .bx-viewport { -moz-box-shadow: 0 0 0 #fff; -webkit-box-shadow: 0 0 0 #fff; box-shadow:0 0 0 #fff; border: solid #fff 0; background: transparent; }
+.features-books .slide { padding:18px; border:1px solid #e5e5e5; transition: width 1s; -moz-transition: 1s; /* Firefox 4 */ -webkit-transition: 1s; /* Safari and Chrome */ -o-transition: 1s; /* Opera */ }
+.features-books .slide:hover { background:#f9f9f9; border-color:#85a319; -moz-box-shadow: 0 0 7px #ccc; -webkit-box-shadow: 0 0 7px #ccc; box-shadow: 0 0 7px #ccc; }
+.features-books .slide .title { display:block; color:#000; font-size:12px; }
+.features-books .slide .title a { color:#000; }
+.features-books .slide .title2 { display:block; color:#000; font-size:10px; }
+.features-books .slide .title2 a { color:#000; }
+.features-books .slide img { margin:0 0 5px; }
+.features-books .pro-img { -moz-box-shadow:2px 2px 2px #4e4e4e; -webkit-box-shadow:2px 2px 2px #4e4e4e; box-shadow:2px 2px 2px #4e4e4e; }
+.features-books .bx-controls-direction {right: 44px; top: -46px; }
+.features-books .bx-wrapper .bx-prev { left: -17px; }
+.features-books .bx-wrapper .bx-next { right: -18px; }
+
+
+.slide .title { display:block; color:#000; font-size:12px; }
+.slide .title a { color:#000; }
+.slide .title2 { display:block; color:#000; font-size:10px; }
+.slide .title2 a { color:#000; }
+
+/* End Featured Books Css */
+.cart-btn2 {
+    background: url(../../assets/img/cart-icon.png) no-repeat;
+    text-indent: -999px;
+    width: 31px;
+    height: 26px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+.price {
+    float: left;
+    margin-top: 4px;
+    padding-left: 10px;
+    border-left: 1px solid #ababab;
+    font-size: 16px;
+    color: #000;
+}
+.price3 {
+    float: left;
+    margin-top: 4px;
+    padding-right: 5px;
+    border-right: 1px solid #ababab;
+    font-size: 16px;
+    color: #000;
+    margin-right: 5px;
+}
+.price3cut {
+    float: left;
+    margin-top: 4px;
+    padding-right: 5px;
+    border-right: 1px solid #ababab;
+    font-size: 16px;
+    color: #000;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+.rating-bar {
+    display: block;
+    margin: 20px 0 10px;
+}
+.slide-book {
+    padding: 5px;
+    border: 1px solid #e5e5e5;    
+    min-height:62px;
+    width:235px;
+    margin:5px;
+    float:left;
+    
+}
+.slide-book .title { display:block; color:#000; font-size:12px; overflow-x:hidden;white-space: nowrap; }
+.slide-book .title a { color:#000; }
+.slide-book .title2 { display:block; color:#000; font-size:10px; }
+.slide-book .title2 a { color:#000; }
+.cart-btn3 {
+    background: url(../../assets/img/cart-icon.png) no-repeat;
+    text-indent: -999px;
+    width: 31px;
+    height: 26px;
+    overflow: hidden;
+    float: left;    
+    margin-left: 20px
+}
+.download-btn3 {
+    background: url(../../assets/img/download-icon.png) no-repeat;
+    text-indent: -999px;
+    width: 31px;
+    height: 26px;
+    overflow: hidden;
+    float: left;    
+    margin-left: 20px
+}
+.price1 {
+    float: left;
+    margin-top: 4px;
+    padding-left: 10px;   
+    font-size: 14px;
+    color: #000;
+}
+.download-btn4 {
+    background: url(../../assets/img/download-icon1.png) no-repeat;
+    text-indent: -999px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    float: left;    
+    margin-left: 20px
+}
+.edit-btn1 {
+    background: url(../../assets/img/edit-icon1.png) no-repeat;
+    text-indent: -999px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    float: left;    
+    margin-left: 20px
+}
+.sale-icon {
+background: url(../../assets/img/sale-icon1.png) no-repeat;
+width: 50px;
+height: 50px;
+position: absolute;
+left: 25px;
+top: 50px;
+text-indent: -999px;
+overflow: hidden;
+}

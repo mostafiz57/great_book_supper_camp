@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <title>Table Data - Dynamic table</title>
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- end: META -->
+    <!-- start: MAIN CSS -->
+    <link rel="stylesheet" href="../../assets/js/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/font-awesome/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/main-responsive.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/iCheck/skins/all.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/bootstrap-colorpalette/css/bootstrap-colorpalette.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/perfect-scrollbar/src/perfect-scrollbar.css">
+    <link rel="stylesheet" href="../../assets/css/theme_light.css" type="text/css" id="skin_color">  
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="../../assets/js/vendor/font-awesome/css/font-awesome-ie7.min.css">
+    <![endif]-->
+    <!-- end: MAIN CSS -->
+    <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <link rel="stylesheet" href="../../assets/js/vendor/select2/select2.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/datepicker/css/datepicker.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/bootstrap-colorpicker/css/bootstrap-colorpicker.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/jQuery-Tags-Input/jquery.tagsinput.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css">
+    <link rel="stylesheet" href="../../assets/js/vendor/summernote/build/summernote.css">
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css" /><!-- All css -->       
+    <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+
+</head>
+<body>
+<div class="container">
+					<!-- start: PAGE HEADER -->
+
+					<!-- end: PAGE HEADER -->
+					<!-- start: PAGE CONTENT -->
+
+    <!-- start: User Table -->
+    <div class="row">
+        <div class="col-md-12">
+            <!-- start: DYNAMIC TABLE PANEL -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-external-link-square"></i>
+                    After clicking on download button this modal will come
+                    <div class="panel-tools">
+                        <a class="btn btn-xs btn-link panel-collapse collapses" href="#">
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Button trigger modal -->
+                            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                Launch download modal
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">Download owned books - Select Type</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                           <div class="row">
+                                               <div class="col-md-4" style="text-align:right">                                                 
+                                                       <h5 class="control-label" for="form-field-1">
+                                                           Select Format  : <span class="symbol required"></span>
+                                                       </h5>                                                      
+                                            
+                                                  </div>
+                                               <div class="col-md-8">
+                                                   <div class="radio">
+                                                       <label>
+                                                           <input type="radio" value="" name="optionsRadios12" class="square-green">
+                                                           HTML5
+                                                       </label>
+                                                   </div>
+                                                   <div class="radio">
+                                                       <label>
+                                                           <input type="radio" value="" name="optionsRadios12" class="square-green">
+                                                           ePub
+                                                       </label>
+                                                   </div>
+                                                   <div class="radio">
+                                                       <label>
+                                                           <input type="radio" value="" name="optionsRadios12" class="square-green">
+                                                           Mobi
+                                                       </label>
+                                                   </div>
+                                                   <div class="radio">
+                                                       <label>
+                                                           <input type="radio" value="" name="optionsRadios12" class="square-green">
+                                                           PDF
+                                                       </label>
+                                                   </div>
+                                                   <div class="radio">
+                                                       <label>
+                                                           <input type="radio" value="" name="optionsRadios12" class="square-green">
+                                                           TextbookPDF
+                                                       </label>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-success"><i class="fa fa-download"></i> Download</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- end: DYNAMIC TABLE PANEL -->
+        </div>
+    </div>
+    <!-- end: User Table -->
+    <div class="row">
+        <div class="col-md-12">
+          
+                <!-- start: DYNAMIC TABLE PANEL -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-plus"></i>
+                        Add Book
+                        <div class="panel-tools">
+                            <a class="btn btn-xs btn-link panel-collapse collapses" href="#">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="heading-bar">
+                            <h2>Add Book</h2>
+                            <span class="h-line"></span>
+                        </div>
+                        <div class="row">
+                            
+                            
+                            <div class="col-md-12">                               
+                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Title <span class="symbol required"></span>
+                                            </label>
+                                            <input type="text" placeholder="Auto Title after selection radio button at the top" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Author <span class="symbol required"></span>
+                                            </label>
+                                            <input type="text" placeholder="Auto Author Name after selection radio button at the top" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Tags <span class="symbol required"></span>
+                                            </label>
+                                            <input id="tags_1" type="text" class="tags" value="UI/UX,Graphices,Web Design,Freelancer">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label class="control-label">
+                                                        Cover <span class="symbol required"></span>
+                                                    </label>
+                                                    <div class="fileupload fileupload-new" data-provides="fileupload">
+                                                        <div class="fileupload-new thumbnail" style="width: 140px; height: 180px;">
+                                                            <img src="http://www.placehold.it/140x180/EFEFEF/AAAAAA?text=no+image" alt="" />
+                                                        </div>
+                                                        <div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 140px; max-height: 180px; line-height: 20px;"></div>
+                                                        <div>
+                                                            <span class="btn btn-light-grey btn-file">
+                                                                <span class="fileupload-new"><i class="fa fa-picture-o"></i> Select image</span><span class="fileupload-exists"><i class="fa fa-picture-o"></i> Change</span>
+                                                                <input type="file">
+                                                            </span>
+
+                                                            <a href="#" class="btn fileupload-exists btn-light-grey" data-dismiss="fileupload">
+                                                                <i class="fa fa-times"></i> Remove
+                                                            </a>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group">
+                                                    <label for="form-field-select-3">
+                                                        Category
+                                                    </label>
+                                                    <select id="form-field-select-3" class="form-control search-select">
+                                                        <option value="">Select  Category</option>
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="CA">California</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="HI">Hawaii</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WA">Washington</option>
+                                                        <option value="WV">West Virginia</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="form-field-select-3">
+                                                        Sub-Category
+                                                    </label>
+                                                    <select id="form-field-select-3" class="form-control search-select">
+                                                        <option value="">Select   Sub-Category</option>
+                                                        <option value="AL">Alabama</option>
+                                                        <option value="AK">Alaska</option>
+                                                        <option value="AZ">Arizona</option>
+                                                        <option value="AR">Arkansas</option>
+                                                        <option value="CA">California</option>
+                                                        <option value="CO">Colorado</option>
+                                                        <option value="CT">Connecticut</option>
+                                                        <option value="DE">Delaware</option>
+                                                        <option value="FL">Florida</option>
+                                                        <option value="GA">Georgia</option>
+                                                        <option value="HI">Hawaii</option>
+                                                        <option value="ID">Idaho</option>
+                                                        <option value="IL">Illinois</option>
+                                                        <option value="IN">Indiana</option>
+                                                        <option value="IA">Iowa</option>
+                                                        <option value="KS">Kansas</option>
+                                                        <option value="KY">Kentucky</option>
+                                                        <option value="LA">Louisiana</option>
+                                                        <option value="ME">Maine</option>
+                                                        <option value="MD">Maryland</option>
+                                                        <option value="MA">Massachusetts</option>
+                                                        <option value="MI">Michigan</option>
+                                                        <option value="MN">Minnesota</option>
+                                                        <option value="MS">Mississippi</option>
+                                                        <option value="MO">Missouri</option>
+                                                        <option value="MT">Montana</option>
+                                                        <option value="NE">Nebraska</option>
+                                                        <option value="NV">Nevada</option>
+                                                        <option value="NH">New Hampshire</option>
+                                                        <option value="NJ">New Jersey</option>
+                                                        <option value="NM">New Mexico</option>
+                                                        <option value="NY">New York</option>
+                                                        <option value="NC">North Carolina</option>
+                                                        <option value="ND">North Dakota</option>
+                                                        <option value="OH">Ohio</option>
+                                                        <option value="OK">Oklahoma</option>
+                                                        <option value="OR">Oregon</option>
+                                                        <option value="PA">Pennsylvania</option>
+                                                        <option value="RI">Rhode Island</option>
+                                                        <option value="SC">South Carolina</option>
+                                                        <option value="SD">South Dakota</option>
+                                                        <option value="TN">Tennessee</option>
+                                                        <option value="TX">Texas</option>
+                                                        <option value="UT">Utah</option>
+                                                        <option value="VT">Vermont</option>
+                                                        <option value="VA">Virginia</option>
+                                                        <option value="WA">Washington</option>
+                                                        <option value="WV">West Virginia</option>
+                                                        <option value="WI">Wisconsin</option>
+                                                        <option value="WY">Wyoming</option>
+                                                    </select>
+                                                </div>
+                                                <div class="alert alert-block alert-info fade in" style="text-align:center">                                                    
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h4 class="alert-heading">Browser Computer "New book as zipped html or ePub"</h4>
+                                                            <div class="form-group">
+                                                                <div class="col-sm-12">
+                                                                    <div data-provides="fileupload" class="fileupload fileupload-new">
+                                                                        <span class="btn btn-file btn-light-grey">
+                                                                            <i class="fa fa-folder-open-o"></i> <span class="fileupload-new">Select file</span><span class="fileupload-exists">Change</span>
+                                                                            <input type="file">
+                                                                        </span>
+                                                                        <span class="fileupload-preview"></span>
+                                                                        <a style="float: none" data-dismiss="fileupload" class="close fileupload-exists" href="#">
+                                                                            &times;
+                                                                        </a>
+                                                                        <a href="#" class="btn btn-success">
+                                                                            <i class="fa fa-upload"></i> Upload
+                                                                        </a>
+                                                                    </div>
+                                                                   
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Meta-data <span class="symbol required"></span>
+                                            </label>
+                                            
+                                            <table id="mainTable" class="table table-striped  table-bordered table-hover">
+                                                <thead><tr><th>Keys</th><th>Values </th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>Car</td><td>100</td></tr>
+                                                    <tr><td>Bike</td><td>330</td></tr>
+                                                    <tr><td>Plane</td><td>430</td></tr>
+                                                    <tr><td>Yacht</td><td>100</td></tr>
+                                                    <tr><td><b>Segway</b><span class="symbol required"></span></td><td>330</td></tr>
+                                                    <tr><td>Car</td><td>100</td></tr>
+                                                    <tr><td>Bike</td><td>330</td></tr>
+                                                    <tr><td>Plane</td><td>430</td></tr>
+                                                    <tr><td><b>Yacht</b><span class="symbol required"></span></td><td>100</td></tr>
+                                                    <tr><td>Segway</td><td>330</td></tr>
+                                                    <tr><td>Car</td><td>100</td></tr>
+                                                    <tr><td>Bike</td><td>330</td></tr>
+                                                    <tr><td>Plane</td><td>430</td></tr>                                                   
+
+                                                </tbody>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="alert alert-block alert-success" style="min-height:80px">
+                                            <div style="float:right">
+                                                <a href="#" class="btn btn-green btn-lg">
+                                                    <i class="fa fa-save"></i> Save
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <!-- end: DYNAMIC TABLE PANEL -->
+           
+
+        </div>
+    </div>
+    <!-- start: Create New User Form -->
+
+    
+    <!-- end: Create New User Form -->
+    <!-- start: User Edit Form -->
+    
+    <!-- end: User Edit Form -->
+    <!-- start: User Edit Form -->
+    
+    <!-- end: User Edit Form -->
+
+					<!-- end: PAGE CONTENT-->
+</div>
+	<!-- end: MAIN CONTAINER -->
+        <!-- start: MAIN JAVASCRIPTS -->
+        <!--[if lt IE 9]>
+    <script src="../../assets/js/vendor/respond.min.js"></script>
+    <script src="../../assets/js/vendor/excanvas.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!--<![endif]-->
+        <script src="../../assets/js/vendor/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
+        <script src="../../assets/js/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+        <script src="../../assets/js/vendor/blockUI/jquery.blockUI.js"></script>
+        <script src="../../assets/js/vendor/iCheck/jquery.icheck.min.js"></script>
+        <script src="../../assets/js/vendor/perfect-scrollbar/src/jquery.mousewheel.js"></script>
+        <script src="../../assets/js/vendor/perfect-scrollbar/src/perfect-scrollbar.js"></script>
+        <script src="../../assets/js/vendor/less/less-1.5.0.min.js"></script>
+        <script src="../../assets/js/vendor/jquery-cookie/jquery.cookie.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-colorpalette/js/bootstrap-colorpalette.js"></script>
+        <script src="../../assets/js/main.js"></script>
+        <!-- end: MAIN JAVASCRIPTS -->
+        <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+        <script src="../../assets/js/vendor/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js"></script>
+        <script src="../../assets/js/vendor/autosize/jquery.autosize.min.js"></script>
+        <script src="../../assets/js/vendor/select2/select2.min.js"></script>
+        <script src="../../assets/js/vendor/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+        <script src="../../assets/js/vendor/jquery-maskmoney/jquery.maskMoney.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-timepicker/js/bootstrap-timepicker.min.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-daterangepicker/moment.min.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-colorpicker/js/commits.js"></script>
+        <script src="../../assets/js/vendor/jQuery-Tags-Input/jquery.tagsinput.js"></script>
+        <script src="../../assets/js/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+        <script src="../../assets/js/vendor/summernote/build/summernote.min.js"></script>
+        <script src="../../assets/js/vendor/ckeditor/ckeditor.js"></script>
+        <script src="../../assets/js/vendor/ckeditor/adapters/jquery.js"></script>
+        <script src="../../assets/js/form-elements.js"></script>
+        <script src="external/google-code-prettify/prettify.js"></script>
+        <script src="../../assets/js/mindmup-editabletable.js"></script>
+        <script src="../../assets/js/numeric-input-example.js"></script>
+		<script>
+			jQuery(document).ready(function() {
+			    Main.init();
+				
+				FormElements.init();
+
+			});
+		</script>
+        <script>
+
+            $('#mainTable').editableTableWidget({ editor: $('<textarea>') });
+            window.prettyPrint && prettyPrint();
+        </script>
+
+</body>
+</html>
